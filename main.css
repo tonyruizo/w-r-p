@@ -55,8 +55,7 @@ h1 {
 }
 
 .message-container,
-.schedule-container,
-.after-container {
+.schedule-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,14 +75,6 @@ h1 {
   color: green;
   font-size: 1.5rem;
 }
-
-/* .schedule-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3rem;
-} */
 
 .timeline {
   display: grid;
@@ -137,10 +128,13 @@ h1 {
 }
 
 .after-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding-bottom: 12rem;
-  /* height: 20vh; */
-  /* border: 1px solid bl */
-  background-color: rgba(157, 176, 159, 0.668);
+  padding: 20px 10px;
+  background-color: rgba(157, 176, 159, 0.412);
 }
 
 @media (min-width: 768px) {
