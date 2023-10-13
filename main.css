@@ -131,10 +131,11 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   flex-direction: column;
   padding-bottom: 12rem;
   padding: 20px 10px;
-  background-color: rgba(157, 176, 159, 0.412);
+  background-color: rgba(157, 176, 159, 0.749);
 }
 
 @media (min-width: 768px) {
